@@ -15,18 +15,48 @@
 		34593C80296613F4008B59EC /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 34593C7F296613F4008B59EC /* FirebaseMessaging */; };
 		34593C8229661417008B59EC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34593C8129661417008B59EC /* GoogleService-Info.plist */; };
 		34C8936C2962077A00ADF788 /* CrewlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C8936B2962077A00ADF788 /* CrewlApp.swift */; };
-		34C8936E2962077A00ADF788 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C8936D2962077A00ADF788 /* ContentView.swift */; };
-		34C893702962077C00ADF788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C8936F2962077C00ADF788 /* Assets.xcassets */; };
 		34C893732962077C00ADF788 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C893722962077C00ADF788 /* Preview Assets.xcassets */; };
+		34DB84DB2966B6C7004D47E7 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB84DA2966B6C7004D47E7 /* SplashView.swift */; };
+		34DB84DD2966B80B004D47E7 /* firstOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB84DC2966B80B004D47E7 /* firstOnboardingView.swift */; };
+		34DB84E52966C1C8004D47E7 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB84E42966C1C8004D47E7 /* ButtonStyle.swift */; };
+		34DB84E72966C22A004D47E7 /* SetFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB84E62966C22A004D47E7 /* SetFont.swift */; };
+		34DB84EA2966C93D004D47E7 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB84E92966C93D004D47E7 /* FontManager.swift */; };
+		34DB84FB2966E895004D47E7 /* SetColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB84FA2966E895004D47E7 /* SetColor.swift */; };
+		34DB84FE2966E976004D47E7 /* secondOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB84FD2966E976004D47E7 /* secondOnboardingView.swift */; };
+		34DB85002966E9A1004D47E7 /* thirdOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB84FF2966E9A1004D47E7 /* thirdOnboardingView.swift */; };
+		34DB85042966EA37004D47E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34DB85032966EA37004D47E7 /* Assets.xcassets */; };
+		34DB850A2966EAB1004D47E7 /* SpaceGrotesk-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34DB85052966EAB0004D47E7 /* SpaceGrotesk-Light.ttf */; };
+		34DB850B2966EAB1004D47E7 /* SpaceGrotesk-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34DB85062966EAB0004D47E7 /* SpaceGrotesk-SemiBold.ttf */; };
+		34DB850C2966EAB1004D47E7 /* SpaceGrotesk-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34DB85072966EAB0004D47E7 /* SpaceGrotesk-Medium.ttf */; };
+		34DB850D2966EAB1004D47E7 /* SpaceGrotesk-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34DB85082966EAB0004D47E7 /* SpaceGrotesk-Regular.ttf */; };
+		34DB850E2966EAB1004D47E7 /* SpaceGrotesk-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34DB85092966EAB1004D47E7 /* SpaceGrotesk-Bold.ttf */; };
+		34DB85102966EDED004D47E7 /* fourthOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB850F2966EDED004D47E7 /* fourthOnboardingView.swift */; };
+		34DB85122966EE9C004D47E7 /* Pre_HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB85112966EE9C004D47E7 /* Pre_HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		34593C8129661417008B59EC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		34C893682962077A00ADF788 /* Crewl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crewl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C8936B2962077A00ADF788 /* CrewlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewlApp.swift; sourceTree = "<group>"; };
-		34C8936D2962077A00ADF788 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		34C8936F2962077C00ADF788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34C893722962077C00ADF788 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34DB84DA2966B6C7004D47E7 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		34DB84DC2966B80B004D47E7 /* firstOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstOnboardingView.swift; sourceTree = "<group>"; };
+		34DB84E42966C1C8004D47E7 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		34DB84E62966C22A004D47E7 /* SetFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetFont.swift; sourceTree = "<group>"; };
+		34DB84E82966C30B004D47E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		34DB84E92966C93D004D47E7 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		34DB84EC2966D99B004D47E7 /* ToDo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ToDo.md; sourceTree = "<group>"; };
+		34DB84FA2966E895004D47E7 /* SetColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetColor.swift; sourceTree = "<group>"; };
+		34DB84FD2966E976004D47E7 /* secondOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondOnboardingView.swift; sourceTree = "<group>"; };
+		34DB84FF2966E9A1004D47E7 /* thirdOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdOnboardingView.swift; sourceTree = "<group>"; };
+		34DB85032966EA37004D47E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Crewl/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		34DB85052966EAB0004D47E7 /* SpaceGrotesk-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Light.ttf"; sourceTree = "<group>"; };
+		34DB85062966EAB0004D47E7 /* SpaceGrotesk-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-SemiBold.ttf"; sourceTree = "<group>"; };
+		34DB85072966EAB0004D47E7 /* SpaceGrotesk-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Medium.ttf"; sourceTree = "<group>"; };
+		34DB85082966EAB0004D47E7 /* SpaceGrotesk-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Regular.ttf"; sourceTree = "<group>"; };
+		34DB85092966EAB1004D47E7 /* SpaceGrotesk-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Bold.ttf"; sourceTree = "<group>"; };
+		34DB850F2966EDED004D47E7 /* fourthOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthOnboardingView.swift; sourceTree = "<group>"; };
+		34DB85112966EE9C004D47E7 /* Pre_HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pre_HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +79,7 @@
 		34593C6E296610A1008B59EC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				34DB84D92966B6A9004D47E7 /* Onboarding */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -63,6 +94,8 @@
 		34593C70296610AE008B59EC /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				34DB84EF2966E463004D47E7 /* SpaceGrotestFonts */,
+				34DB85032966EA37004D47E7 /* Assets.xcassets */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -70,6 +103,8 @@
 		34593C71296610BC008B59EC /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				34DB84EB2966D489004D47E7 /* Manager */,
+				34DB84E42966C1C8004D47E7 /* ButtonStyle.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -77,15 +112,9 @@
 		34593C72296610C5008B59EC /* Interector */ = {
 			isa = PBXGroup;
 			children = (
+				34DB84FC2966E93A004D47E7 /* SetFiles */,
 			);
 			path = Interector;
-			sourceTree = "<group>";
-		};
-		34593C7A296613DA008B59EC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		34C8935F2962077A00ADF788 = {
@@ -93,7 +122,6 @@
 			children = (
 				34C8936A2962077A00ADF788 /* Crewl */,
 				34C893692962077A00ADF788 /* Products */,
-				34593C7A296613DA008B59EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +136,8 @@
 		34C8936A2962077A00ADF788 /* Crewl */ = {
 			isa = PBXGroup;
 			children = (
+				34DB84EC2966D99B004D47E7 /* ToDo.md */,
+				34DB84E82966C30B004D47E7 /* Info.plist */,
 				34593C8129661417008B59EC /* GoogleService-Info.plist */,
 				34C8936B2962077A00ADF788 /* CrewlApp.swift */,
 				34593C6E296610A1008B59EC /* View */,
@@ -115,8 +145,6 @@
 				34593C71296610BC008B59EC /* Presenter */,
 				34593C70296610AE008B59EC /* Entity */,
 				34593C6F296610A7008B59EC /* Router */,
-				34C8936D2962077A00ADF788 /* ContentView.swift */,
-				34C8936F2962077C00ADF788 /* Assets.xcassets */,
 				34C893712962077C00ADF788 /* Preview Content */,
 			);
 			path = Crewl;
@@ -128,6 +156,48 @@
 				34C893722962077C00ADF788 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		34DB84D92966B6A9004D47E7 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				34DB84DA2966B6C7004D47E7 /* SplashView.swift */,
+				34DB84DC2966B80B004D47E7 /* firstOnboardingView.swift */,
+				34DB84FD2966E976004D47E7 /* secondOnboardingView.swift */,
+				34DB84FF2966E9A1004D47E7 /* thirdOnboardingView.swift */,
+				34DB850F2966EDED004D47E7 /* fourthOnboardingView.swift */,
+				34DB85112966EE9C004D47E7 /* Pre_HomeView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		34DB84EB2966D489004D47E7 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				34DB84E92966C93D004D47E7 /* FontManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		34DB84EF2966E463004D47E7 /* SpaceGrotestFonts */ = {
+			isa = PBXGroup;
+			children = (
+				34DB85092966EAB1004D47E7 /* SpaceGrotesk-Bold.ttf */,
+				34DB85052966EAB0004D47E7 /* SpaceGrotesk-Light.ttf */,
+				34DB85072966EAB0004D47E7 /* SpaceGrotesk-Medium.ttf */,
+				34DB85082966EAB0004D47E7 /* SpaceGrotesk-Regular.ttf */,
+				34DB85062966EAB0004D47E7 /* SpaceGrotesk-SemiBold.ttf */,
+			);
+			path = SpaceGrotestFonts;
+			sourceTree = "<group>";
+		};
+		34DB84FC2966E93A004D47E7 /* SetFiles */ = {
+			isa = PBXGroup;
+			children = (
+				34DB84E62966C22A004D47E7 /* SetFont.swift */,
+				34DB84FA2966E895004D47E7 /* SetColor.swift */,
+			);
+			path = SetFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +269,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34DB850B2966EAB1004D47E7 /* SpaceGrotesk-SemiBold.ttf in Resources */,
 				34C893732962077C00ADF788 /* Preview Assets.xcassets in Resources */,
-				34C893702962077C00ADF788 /* Assets.xcassets in Resources */,
+				34DB850E2966EAB1004D47E7 /* SpaceGrotesk-Bold.ttf in Resources */,
+				34DB850D2966EAB1004D47E7 /* SpaceGrotesk-Regular.ttf in Resources */,
+				34DB850C2966EAB1004D47E7 /* SpaceGrotesk-Medium.ttf in Resources */,
+				34DB85042966EA37004D47E7 /* Assets.xcassets in Resources */,
+				34DB850A2966EAB1004D47E7 /* SpaceGrotesk-Light.ttf in Resources */,
 				34593C8229661417008B59EC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +287,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34C8936E2962077A00ADF788 /* ContentView.swift in Sources */,
+				34DB84E72966C22A004D47E7 /* SetFont.swift in Sources */,
+				34DB85002966E9A1004D47E7 /* thirdOnboardingView.swift in Sources */,
 				34C8936C2962077A00ADF788 /* CrewlApp.swift in Sources */,
+				34DB84FB2966E895004D47E7 /* SetColor.swift in Sources */,
+				34DB84E52966C1C8004D47E7 /* ButtonStyle.swift in Sources */,
+				34DB84DD2966B80B004D47E7 /* firstOnboardingView.swift in Sources */,
+				34DB84EA2966C93D004D47E7 /* FontManager.swift in Sources */,
+				34DB85102966EDED004D47E7 /* fourthOnboardingView.swift in Sources */,
+				34DB85122966EE9C004D47E7 /* Pre_HomeView.swift in Sources */,
+				34DB84DB2966B6C7004D47E7 /* SplashView.swift in Sources */,
+				34DB84FE2966E976004D47E7 /* secondOnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +429,7 @@
 				DEVELOPMENT_TEAM = MW2482B7WH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Crewl/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -374,6 +459,7 @@
 				DEVELOPMENT_TEAM = MW2482B7WH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Crewl/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
