@@ -52,7 +52,7 @@ struct ButtonStyleOne: ButtonStyle {
                             .bold()
                         
                     })
-                .buttonStyle(ButtonStyleOne(buttonColor: "Button_Color"))
+                .buttonStyle(ButtonStyleOne(buttonColor: SetColor.yellow.rawValue))
             }
         }
     }

@@ -6,13 +6,14 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct Fonts {
     var SpaceRegular = ("SpaceGrotesk-Regular")
     var SpaceLight = ("SpaceGrotesk-Light")
     var SpaceMedium = ("SpaceGrotesk-Medium")
-    var SpaceBold = ("SpaceGrotesk-Bold")
     var SpaceSemiBold = ("SpaceGrotesk-SemiBold")
+    var SpaceBold = ("SpaceGrotesk-Bold")
 }
 
 struct FontSize {
@@ -25,3 +26,16 @@ struct FontSize {
     var LargeTitle : CGFloat = 40
 }
 
+
+// Help to find fonts
+///struct fontSeeker {
+///    init() {
+///        for familyName in UIFont.familyNames {
+///            print(familyName)
+///
+///            for fontName in UIFont.fontNames(forFamilyName: familyName){
+///                print("--> \(fontName)")
+///            }
+///        }
+///    }
+///}

@@ -1,5 +1,5 @@
 //
-//  firstOnboardingView.swift
+//  secondOnboardingView.swift
 //  Crewl
 //
 //  Created by NomoteteS on 5.01.2023.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct firstOnboardingView: View {
+struct secondOnboardingView: View {
     var body: some View {
         ZStack{
             Color(SetColor.backgroundColor.rawValue)
@@ -16,26 +16,26 @@ struct firstOnboardingView: View {
             VStack {
                 Spacer()
 
-                Text("Etrafındaki etkinlikleri keşfet")
-                    .frame(width: 185)
+                Text("Yeni insanlarla tanış ve rekabet et")
+                    .frame(width: 218)
                     .font(.SpaceBold22)
                 
                 Spacer()
                 
-                Image("firstOnboarding")
+                Image("secondOnboarding")
                     .resizable()
                     .frame(width: 282, height: 347)
                 
                 Spacer()
                 
-                Text("İnsanlar için etkinlik oluştur veya düzenlenen etkinliklere katıl.")
-                    .frame(width: 230,height: 60)
+                Text("Şehrindeki yeni insanları bul, etkinliklerde ekibini oluştur ve ödül kazan.")
+                    .frame(width: 290,height: 60)
                     .font(.RoundedRegular16)
                 
                 Spacer()
 
                 NavigationLink {
-                    secondOnboardingView()
+                    thirdOnboardingView()
                 } label: {
                     Text("Devam Et")
                         .font(.SpaceBold13)
@@ -50,8 +50,8 @@ struct firstOnboardingView: View {
     }
 }
 
-struct firstOnboardingView_Previews: PreviewProvider {
+struct secondOnboardingView_Previews: PreviewProvider {
     static var previews: some View {
-        firstOnboardingView()
+        secondOnboardingView()
     }
 }
