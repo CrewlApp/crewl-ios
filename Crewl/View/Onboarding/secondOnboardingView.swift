@@ -36,6 +36,7 @@ struct secondOnboardingView: View {
 
                 NavigationLink {
                     thirdOnboardingView()
+                        .navigationBarBackButtonHidden(true)
                 } label: {
                     Text("Devam Et")
                         .font(.SpaceBold13)
