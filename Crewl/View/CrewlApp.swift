@@ -9,10 +9,11 @@ import SwiftUI
 
 @main
 struct CrewlApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                SplashView()
+                LocationServiceView()
             }
         }
     }

@@ -32,6 +32,14 @@
 		34DB850E2966EAB1004D47E7 /* SpaceGrotesk-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34DB85092966EAB1004D47E7 /* SpaceGrotesk-Bold.ttf */; };
 		34DB85102966EDED004D47E7 /* fourthOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB850F2966EDED004D47E7 /* fourthOnboardingView.swift */; };
 		34DB85122966EE9C004D47E7 /* Pre_HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB85112966EE9C004D47E7 /* Pre_HomeView.swift */; };
+		34F0CBA7296AF049007FD3BE /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0CBA6296AF049007FD3BE /* BottomSheet.swift */; };
+		34F0CBA9296AF114007FD3BE /* LocationServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0CBA8296AF114007FD3BE /* LocationServiceView.swift */; };
+		34F0CBAB296AF121007FD3BE /* NotificationServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0CBAA296AF121007FD3BE /* NotificationServiceView.swift */; };
+		34F0CBAE296AF821007FD3BE /* SetImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0CBAD296AF821007FD3BE /* SetImage.swift */; };
+		34F0CBB0296AF9CD007FD3BE /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0CBAF296AF9CD007FD3BE /* LocationManager.swift */; };
+		34F0CBB2296AFA2E007FD3BE /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0CBB1296AFA2E007FD3BE /* NotificationManager.swift */; };
+		34F0CBB4296AFF68007FD3BE /* SetText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0CBB3296AFF68007FD3BE /* SetText.swift */; };
+		34F0CBB7296B098D007FD3BE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0CBB6296B098D007FD3BE /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +51,7 @@
 		34DB84DC2966B80B004D47E7 /* firstOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstOnboardingView.swift; sourceTree = "<group>"; };
 		34DB84E42966C1C8004D47E7 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		34DB84E62966C22A004D47E7 /* SetFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetFont.swift; sourceTree = "<group>"; };
-		34DB84E82966C30B004D47E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		34DB84E82966C30B004D47E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34DB84E92966C93D004D47E7 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
 		34DB84EC2966D99B004D47E7 /* ToDo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ToDo.md; sourceTree = "<group>"; };
 		34DB84FA2966E895004D47E7 /* SetColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetColor.swift; sourceTree = "<group>"; };
@@ -57,6 +65,14 @@
 		34DB85092966EAB1004D47E7 /* SpaceGrotesk-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Bold.ttf"; sourceTree = "<group>"; };
 		34DB850F2966EDED004D47E7 /* fourthOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthOnboardingView.swift; sourceTree = "<group>"; };
 		34DB85112966EE9C004D47E7 /* Pre_HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pre_HomeView.swift; sourceTree = "<group>"; };
+		34F0CBA6296AF049007FD3BE /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		34F0CBA8296AF114007FD3BE /* LocationServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServiceView.swift; sourceTree = "<group>"; };
+		34F0CBAA296AF121007FD3BE /* NotificationServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationServiceView.swift; sourceTree = "<group>"; };
+		34F0CBAD296AF821007FD3BE /* SetImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetImage.swift; sourceTree = "<group>"; };
+		34F0CBAF296AF9CD007FD3BE /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		34F0CBB1296AFA2E007FD3BE /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		34F0CBB3296AFF68007FD3BE /* SetText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetText.swift; sourceTree = "<group>"; };
+		34F0CBB6296B098D007FD3BE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +95,11 @@
 		34593C6E296610A1008B59EC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				34C8936B2962077A00ADF788 /* CrewlApp.swift */,
 				34DB84D92966B6A9004D47E7 /* Onboarding */,
+				34F0CBA4296AEB98007FD3BE /* Login */,
+				34F0CBA5296AEBAE007FD3BE /* Notification */,
+				34F0CBB5296B0981007FD3BE /* Home */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -94,6 +114,8 @@
 		34593C70296610AE008B59EC /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				34DB84E82966C30B004D47E7 /* Info.plist */,
+				34593C8129661417008B59EC /* GoogleService-Info.plist */,
 				34DB84EF2966E463004D47E7 /* SpaceGrotestFonts */,
 				34DB85032966EA37004D47E7 /* Assets.xcassets */,
 			);
@@ -105,6 +127,7 @@
 			children = (
 				34DB84EB2966D489004D47E7 /* Manager */,
 				34DB84E42966C1C8004D47E7 /* ButtonStyle.swift */,
+				34F0CBA6296AF049007FD3BE /* BottomSheet.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -137,9 +160,6 @@
 			isa = PBXGroup;
 			children = (
 				34DB84EC2966D99B004D47E7 /* ToDo.md */,
-				34DB84E82966C30B004D47E7 /* Info.plist */,
-				34593C8129661417008B59EC /* GoogleService-Info.plist */,
-				34C8936B2962077A00ADF788 /* CrewlApp.swift */,
 				34593C6E296610A1008B59EC /* View */,
 				34593C72296610C5008B59EC /* Interector */,
 				34593C71296610BC008B59EC /* Presenter */,
@@ -175,6 +195,8 @@
 			isa = PBXGroup;
 			children = (
 				34DB84E92966C93D004D47E7 /* FontManager.swift */,
+				34F0CBAF296AF9CD007FD3BE /* LocationManager.swift */,
+				34F0CBB1296AFA2E007FD3BE /* NotificationManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -196,8 +218,34 @@
 			children = (
 				34DB84E62966C22A004D47E7 /* SetFont.swift */,
 				34DB84FA2966E895004D47E7 /* SetColor.swift */,
+				34F0CBAD296AF821007FD3BE /* SetImage.swift */,
+				34F0CBB3296AFF68007FD3BE /* SetText.swift */,
 			);
 			path = SetFiles;
+			sourceTree = "<group>";
+		};
+		34F0CBA4296AEB98007FD3BE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		34F0CBA5296AEBAE007FD3BE /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				34F0CBA8296AF114007FD3BE /* LocationServiceView.swift */,
+				34F0CBAA296AF121007FD3BE /* NotificationServiceView.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		34F0CBB5296B0981007FD3BE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				34F0CBB6296B098D007FD3BE /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,16 +336,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				34DB84E72966C22A004D47E7 /* SetFont.swift in Sources */,
+				34F0CBB4296AFF68007FD3BE /* SetText.swift in Sources */,
+				34F0CBB2296AFA2E007FD3BE /* NotificationManager.swift in Sources */,
 				34DB85002966E9A1004D47E7 /* thirdOnboardingView.swift in Sources */,
 				34C8936C2962077A00ADF788 /* CrewlApp.swift in Sources */,
 				34DB84FB2966E895004D47E7 /* SetColor.swift in Sources */,
+				34F0CBB0296AF9CD007FD3BE /* LocationManager.swift in Sources */,
 				34DB84E52966C1C8004D47E7 /* ButtonStyle.swift in Sources */,
 				34DB84DD2966B80B004D47E7 /* firstOnboardingView.swift in Sources */,
 				34DB84EA2966C93D004D47E7 /* FontManager.swift in Sources */,
+				34F0CBAE296AF821007FD3BE /* SetImage.swift in Sources */,
 				34DB85102966EDED004D47E7 /* fourthOnboardingView.swift in Sources */,
 				34DB85122966EE9C004D47E7 /* Pre_HomeView.swift in Sources */,
 				34DB84DB2966B6C7004D47E7 /* SplashView.swift in Sources */,
+				34F0CBA7296AF049007FD3BE /* BottomSheet.swift in Sources */,
+				34F0CBAB296AF121007FD3BE /* NotificationServiceView.swift in Sources */,
 				34DB84FE2966E976004D47E7 /* secondOnboardingView.swift in Sources */,
+				34F0CBA9296AF114007FD3BE /* LocationServiceView.swift in Sources */,
+				34F0CBB7296B098D007FD3BE /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +485,7 @@
 				DEVELOPMENT_TEAM = MW2482B7WH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Crewl/Info.plist;
+				INFOPLIST_FILE = Crewl/Entity/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -463,7 +519,7 @@
 				DEVELOPMENT_TEAM = MW2482B7WH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Crewl/Info.plist;
+				INFOPLIST_FILE = Crewl/Entity/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
